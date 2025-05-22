@@ -1,6 +1,5 @@
 .header-bg {
   background-color: #28293e;
-  /* height: 80vh; */
 }
 
 .btn-contact {
@@ -47,13 +46,6 @@ body {
   background-color: #fdf0e9;
 }
 
-/* .bg-img img {
-  width: 70%;
-  aspect-ratio: 3/2;
-  object-fit: contain;
-  mix-blend-mode: color-burn;
-} */
-
 .logo-wrapper {
   width: 140px; /* You can adjust this */
   aspect-ratio: 3 / 2;
@@ -67,4 +59,83 @@ body {
   max-width: 100%;
   max-height: 100%;
   object-fit: contain;
+}
+
+.vertical-line {
+  color: #f3d1bf;
+  border: 1px solid;
+}
+
+.white.btn {
+  background-color: white !important;
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.white.btn:hover {
+  background-color: white !important;
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.stat-box {
+  background-color: #fdf0e9;
+  padding: 2rem;
+  border: 1px solid #f3d1bf;
+  text-align: start;
+}
+
+.stat-number {
+  font-weight: 700;
+  font-size: 1.5rem;
+  color: #4b2e1f;
+}
+
+.stat-label {
+  font-size: 0.9rem;
+  color: #4b2e1f;
+}
+
+.read-more {
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.description {
+  color: #391400a3;
+}
+
+.numbered-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.numbered-item h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+
+.numbered-item p {
+  margin: 0;
+  font-weight: 600;
+}
+
+.play-button {
+  width: 70px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+}
+
+.video-duration {
+  font-size: 0.9rem;
+  background-color: #771e13;
+  border-radius: 5px;
 }
