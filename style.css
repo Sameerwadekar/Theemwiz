@@ -62,8 +62,8 @@ body {
 }
 
 .vertical-line {
-  color: #f3d1bf;
-  border: 1px solid;
+  /* color: #f3d1bf; */
+  border: 1px solid #f3d1bf;
 }
 
 .white.btn {
@@ -285,6 +285,32 @@ body {
   scrollbar-width: none;
 }
 
-.middle-card {
-  transform: scale(1.1);
+.price-popular {
+  background-color: #ef6d58;
+  border: #ef6d58;
+}
+
+.contact-section {
+  position: relative;
+  background: url("../assets/map.png") no-repeat center center;
+  background-size: cover;
+  padding: 60px 0;
+}
+
+.contact-box {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  max-width: 400px;
+  z-index: 2;
+}
+
+.map-marker {
+  position: absolute;
+  right: 20%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 48px;
+  z-index: 1;
 }
