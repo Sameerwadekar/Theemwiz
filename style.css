@@ -296,7 +296,7 @@ body {
 
 .contact-section {
   position: relative;
-  background: url("../assets/map.png") no-repeat center center;
+  background: url("./assets/map.png") no-repeat center center;
   background-size: cover;
   padding: 60px 0;
 }
